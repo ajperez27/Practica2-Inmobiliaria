@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('../Fuentes/Titulo/risaltyp_024-webfont.eot');
+    src: url('../Fuentes/Titulo/risaltyp_024-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/Titulo/risaltyp_024-webfont.woff2') format('woff2'),
+        url('../Fuentes/Titulo/risaltyp_024-webfont.woff') format('woff'),
+        url('../Fuentes/Titulo/risaltyp_024-webfont.ttf') format('truetype'),
+        url('../Fuentes/Titulo/risaltyp_024-webfont.svg#risaltypmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aerolineas';
+    src: url('../Fuentes/aerolineas/airline_logos-webfont.eot');
+    src: url('../Fuentes/aerolineas/airline_logos-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/aerolineas/airline_logos-webfont.woff2') format('woff2'),
+        url('../Fuentes/aerolineas/airline_logos-webfont.woff') format('woff'),
+        url('../Fuentes/aerolineas/airline_logos-webfont.ttf') format('truetype'),
+        url('../Fuentes/aerolineas/airline_logos-webfont.svg#airline_logos_past_and_presRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.eot');
+    src: url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.woff2') format('woff2'),
+        url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.woff') format('woff'),
+        url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.ttf') format('truetype'),
+        url('../Fuentes/texto/robotoBold/roboto-boldcondensed-webfont.svg#robotobold_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'textolight';
+    src: url('../Fuentes/texto/robotoLigth/roboto-light-webfont.eot');
+    src: url('../Fuentes/texto/robotoLigth/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/texto/robotoLigth/roboto-light-webfont.woff2') format('woff2'),
+        url('../Fuentes/texto/robotoLigth/roboto-light-webfont.woff') format('woff'),
+        url('../Fuentes/texto/robotoLigth/roboto-light-webfont.ttf') format('truetype'),
+        url('../Fuentes/texto/robotoLigth/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'textomedium';
+    src: url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.eot');
+    src: url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.woff2') format('woff2'),
+        url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.woff') format('woff'),
+        url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.ttf') format('truetype'),
+        url('../Fuentes/texto/robotoMedium/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    margin: 0;
+    background-color: #2B2B2B;
+}
+
+header
+{
+    background-color: #EDE9DF;
+}
+
+#headerCentro
+{
+    margin: auto;  
+    width: 1300px;
+    height: 117px;    
+}
+
+#logo
+{  
+    position: relative;
+    top: 12px;
+    left: 20px;
+}
+
+#titulo
+{
+    display: inline;
+    font-family: titulo;
+    font-size: 650%;
+    color: #DB268E;
+    text-shadow: 1px 1px 1px black; 
+    position:relative;
+    bottom: 10px;
+    left: 30px;
+}
+
+#enlaces
+{
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+#enlaces a
+{
+    text-decoration: none;
+    color: #6F6D6D;
+    font-size: 130%;
+    font-family: texto;
+    margin-left: 60px;
+}
+
+#usuario:hover
+{
+    color: #444444;
+}
+
+#administrador:hover
+{
+    color: #444444;
+}
+
+#cuerpo
+{
+    background-color: #596065;
+}
+
+#cuerpoCentro
+{
+    margin: 0 auto; 
+    width: 1300px;
+}
+
+#filtro, #insertar
+{
+    display: inline-block;
+    width: 49%;
+    // border: 1px solid blue;
+    //height: 600px; 
+}
+
+#ver
+{
+    margin-bottom: 50px;
+}
+
+#insertar
+{
+    float: right;
+}
+
+#descendente
+{
+    margin-left: 205px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: textomedium;
+    font-size: 150%;
+    color: #EDE9DF;
+    margin-top: 50px;
+}
+
+form
+{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.boton
+{
+    font-size: 120%;
+    margin-left: 210px;
+    margin-top: 30px;
+    color: #2B2B2B;
+    background-color: #EDE9DF;
+    margin-bottom: 20px;
+}
+
+.subir
+{
+    width: 400px;
+    background-color: #596065;
+}
+
+label
+{
+    font-family: textomedium;
+    font-size: 120%;
+    color: #EDE9DF;
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+}
+
+input
+{
+    width: 150px;
+    background-color: #EDE9DF;    
+}
+
+.casa
+{
+    width: 100%;
+    // border: 1px solid red;
+    height: 400px;    
+    margin-top: 50px;
+    float: left;
+}
+
+.datosCasa
+{
+    float: right;
+    margin-right: 30%;
+    font-size: 120%;
+    font-family: textolight;
+    color: #EDE9DF;
+}
+
+.datosCasa td
+{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#paginacion
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 170%;
+    color: #EDE9DF;;
+    letter-spacing: 10px;
+    padding-bottom: 30px;
+}
+
+
+.imagenes
+{
+    height: 300px;
+   // width: 100%;
+    // border: 1px solid red;
+    //height: 500px;    
+    margin-top: 50px;
+    float: right;
+}
+
+a
+{
+    font-size: 120%;
+    color: #EDE9DF;;
+}
+#volver
+{
+  font-size: 150%;  
+  margin-left: 200px;
+  position: relative;
+  bottom: 20px;
+}
+footer
+{
+    margin: auto; 
+    width: 1300px;
+    height: 300px;
+    color: #8B8D8E;
+    font-size: 130%;
+    font-family:sans-serif;
+}
+
+footer > div
+{
+    width: 24.8%;
+    height: 200px;
+    float: left;
+}
+
+.titulopie
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: block;
+}
+
+.titulopie:before
+{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+#iconoSoporte:before
+{
+    content: url(../img/imgCss/soporte.png);    
+}
+
+#iconoMiEnvio:before
+{
+    content: url(../img/imgCss/miEnvio.png); 
+}
+
+#iconoConocenos:before
+{
+    content: url(../img/imgCss/conocenos.png); 
+}
+
+#iconoDeInteres:before
+{
+    content: url(../img/imgCss/deInteres.png); 
+}
+
+.linea
+{
+    width: 1px;
+    height: 130px;
+    margin-top: 40px;    
+    background-color: #8B8D8E; 
+}
+
+ul
+{
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+#aerolineasycopy
+{    
+    width: 100%;
+    height: 50px;
+}
+
+#copy
+{
+    font-size: 80%;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.aerologos
+{
+    margin-right: 20px;
+    font-family: aerolineas;
+    margin-left: 50px;
+    font-size: 330%;
+    float: right;    
+}
+
+#british
+{
+    font-size: 260%;
+}
+
+#iberia
+{
+    position: relative;
+    bottom: 10px;
+}
